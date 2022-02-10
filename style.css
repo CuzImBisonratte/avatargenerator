@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+html {
+    /* Set a linear gradient as the background */
+    background: linear-gradient(to top, #0c5241 0%, #14a8b3 100%);
+    /* Set height */
+    height: 100vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+}
+
+body {
+    text-align: center;
+}
+
+#options {
+    margin: auto;
+    width: 55vh;
+    height: 25vh;
+    position: relative;
+}
+
+.option {
+    position: absolute;
+    border-radius: 5vh;
+    height: 25vh;
+    width: 25vh;
+    font-size: 2.5vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#simple {
+    background-color: darkorange;
+    left: 0px;
+}
+
+#custom {
+    background-color: mediumpurple;
+    right: 0px;
+}
