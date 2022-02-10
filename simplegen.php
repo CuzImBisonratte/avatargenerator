@@ -59,6 +59,11 @@
         imagepng($image_resized, "images/simplegen_resized.png");
 
 
+        // Show the image
+        echo "<img src='images/simplegen_resized.png'>";
+
+
+
     }
 
 ?>
