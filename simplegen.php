@@ -48,8 +48,6 @@
 
             // Put the pixel on the image
             imagesetpixel($image, $i % $width, $i / $width, $pixel);
-
-            echo "created pixel $i<br>";
         }
 
         // Now the image has to be resized to $end_width x $end_height
@@ -57,11 +55,10 @@
         imagecopyresampled($image_resized, $image, 0, 0, 0, 0, $end_width, $end_height, $width, $height);
 
         // Save the image
-        imagepng($image, "images/simplegen.png");
-        echo "Image mini saved <br>";
-
+        imagepng($image, "images/simplegen.png");;
         imagepng($image_resized, "images/simplegen_resized.png");
-        exit("Created mini image");
+
+
     }
 
 ?>
