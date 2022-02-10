@@ -40,7 +40,23 @@
 
             <div id="resize_size">
                 <label for="resize_size">Resize size (in px):</label>
-                <input type="number" name="resize_size" id="resize_size_field" value="50">
+                <input type="number" name="resize_size" id="resize_size_field" value="500">
+            </div>
+        </div>
+        <div id="border">
+            <label for="border_radio">Should the image have a border?</label>
+            <input type="radio" name="border_radio" id="border_yes" value="yes" checked>
+            <label for="border_yes">Yes</label>
+            <input type="radio" name="border_radio" id="border_no" value="no">
+            <label for="border_no">No</label>
+
+            <div id="border_size">
+                <label for="border_size">border size (in px):</label>
+                <input type="number" name="border_size" id="border_size_field" value="1">
+            </div>
+            <div id="border_color">
+                <label for="border_color">border color:</label>
+                <input type="color" name="border_color" id="border_color_field" value="#ffffff">
             </div>
         </div>
         <div id="submit">
