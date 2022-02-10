@@ -10,16 +10,6 @@
     $should_border = $_POST['border_radio'];
     $border_size = $_POST['border_size'];
     $border_color = $_POST['border_color'];
-    
-    // $color = "#ffffff";
-    // $bg_color = "#000000";
-    // $size = 20;
-    // $density = 3;
-    // $should_resize = "yes";
-    // $resize_size = 500;
-    // $should_border = "yes";
-    // $border_size = 50;
-    // $border_color = "#aaaaaa";
 
     // Check if any of the variables are empty
     if (empty($color) || empty($bg_color) || empty($size) || empty($density) || empty($should_resize) || empty($resize_size) || empty($should_border) || empty($border_size) || empty($border_color)) {	
