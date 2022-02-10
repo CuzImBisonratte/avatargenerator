@@ -9,6 +9,9 @@ html {
 }
 
 body {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
     text-align: center;
     transition: 0.25s;
 }
@@ -40,4 +43,28 @@ body {
 #custom {
     background-color: mediumpurple;
     right: 0px;
+}
+
+
+/* 
+All settings for the generator pages
+*/
+
+form>div {
+    margin-bottom: 3vh;
+}
+
+#submit {
+    margin-bottom: 0;
+}
+
+form {
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 2vh 5vh;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 40px 0 rgb(0, 238, 255);
 }

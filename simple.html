@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>You have chosen the simple version.</h1>
+    <p>Now please enter the values and then press "Generate"</p>
+    <form action="simplegen.php" method="post">
+        <div id="color">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color" placeholder="Enter a color">
+        </div>
+        <div id="darklight">
+            Theme:
+
+            <input type="radio" id="darklight_dark" name="contact" value="" checked>
+            <label for="darklight_dark">Dark</label>
+
+            <input type="radio" id="darklight_light" name="contact" value="">
+            <label for="darklight_light">Light</label>
+        </div>
+        <div id="size">
+            <label for="size">Size (2 - 25):</label>
+            <input type="number" name="size" id="size" value="8">
+        </div>
+        <div id="submit">
+            <button id="" type="submit">Generate</button>
+        </div>
+    </form>
+
+    <br><br><br><br><br>
+    <footer>Made with ❤️ by CuzImBisonratte</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
