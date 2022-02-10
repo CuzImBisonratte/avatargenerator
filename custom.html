@@ -15,11 +15,11 @@
     <form action="customgen.php" method="post">
         <div id="color">
             <label for="color">Color:</label>
-            <input type="color" name="color" id="colorpicker" value="#aa00ff">
+            <input type="color" name="color" id="colorpicker" value="#000000">
         </div>
         <div id="bg_color">
             <label for="bg_color">Background:</label>
-            <input type="color" name="bg_color" id="bg_colorpicker" value="#12a6a6">
+            <input type="color" name="bg_color" id="bg_colorpicker" value="#ffffff">
         </div>
         <div id="size">
             <label for="size">Size (2 - 25):</label>
@@ -27,7 +27,7 @@
         </div>
         <div id="density">
             <label for="density_slider">Density: </label>
-            <input type="range" id="density_slider" name="density_slider" min="2" max="7" value=3 step="1">
+            <input type="range" id="density_slider" name="density_slider" min="2" max="10" value=2 step="1">
             <br>
             <output for="density_slider" id="density_slider_output"></output>
         </div>
@@ -40,7 +40,7 @@
 
             <div id="resize_size">
                 <label for="resize_size">Resize size (in px):</label>
-                <input type="number" name="resize_size" id="resize_size_field" value="500">
+                <input type="number" name="resize_size" id="resize_size_field" value="1000">
             </div>
         </div>
         <div id="border">
@@ -52,7 +52,7 @@
 
             <div id="border_size">
                 <label for="border_size">border size (in px):</label>
-                <input type="number" name="border_size" id="border_size_field" value="1">
+                <input type="number" name="border_size" id="border_size_field" value="10">
             </div>
             <div id="border_color">
                 <label for="border_color">border color:</label>
