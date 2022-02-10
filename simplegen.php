@@ -60,7 +60,8 @@
 
 
         // Show the image
-        echo "<img src='images/simplegen_resized.png'>";
+        echo "<h1>Here is your avatar:</h1>";
+        echo "<img style='margin:auto;border:5px red solid;'src='images/simplegen_resized.png'>";
+        echo "<p>You can download it by right clicking it and then click on \"Save Image\".</p>";
     }
-
 ?>
