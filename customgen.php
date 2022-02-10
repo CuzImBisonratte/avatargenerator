@@ -54,19 +54,15 @@
             // If the random number isn't 0, create a pixel with the background color
             if ($rand == 0) {
                 
-                echo "Pixel created with color: " . $hex_color . "<br>";
                 $pixel = imagecolorallocate($image, hexdec(substr($hex_color, 0, 2)), hexdec(substr($hex_color, 2, 2)), hexdec(substr($hex_color, 4, 2)));
             } else {
 
-                echo "Pixel created with background color: " . $bg_hex_color . "<br>";
                 $pixel = imagecolorallocate($image, hexdec(substr($bg_hex_color, 0, 2)), hexdec(substr($bg_hex_color, 2, 2)), hexdec(substr($bg_hex_color, 4, 2)));
             }
 
             // Put the pixel on the image
             imagesetpixel($image, $i % $width, $i / $width, $pixel);
         }
-
-        echo "Resizing image to: " . $end_width . "x" . $end_height . "<br>";
 
         // Now the image has to be resized to $end_width x $end_height
         $image_resized = imagecreatetruecolor($end_width, $end_height);
