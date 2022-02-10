@@ -63,7 +63,7 @@ form {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     width: fit-content;
-    margin: 10vh auto;
+    margin: 7vh auto;
     padding: 2vh 5vh;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 10px 40px 0 rgb(0, 238, 255);
