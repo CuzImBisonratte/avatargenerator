@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>You have chosen the customizable version.</h1>
+    <p>There are standart values like in the simple version, but you can change any field here:</p>
+    <form action="simplegen.php" method="post">
+        <div id="color">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="colorpicker" value="#aa00ff">
+        </div>
+        <div id="bg_color">
+            <label for="bg_color">Background:</label>
+            <input type="color" name="bg_color" id="bg_colorpicker" value="#12a6a6">
+        </div>
+        <div id="size">
+            <label for="size">Size (2 - 25):</label>
+            <input type="number" name="size" id="size_field" value="8">
+        </div>
+        <div id="density">
+            <label for="density_slider">Density: </label>
+            <input type="range" id="density_slider" name="density_slider" min="2" max="7" value=3 step="1">
+            <br>
+            <output for="density_slider" id="density_slider_output"></output>
+        </div>
+        <div id="resize">
+            <label for="resize_radio">Should the image be resized?</label>
+            <input type="radio" name="resize_radio" id="resize_yes" value="yes" checked>
+            <label for="resize_yes">Yes</label>
+            <input type="radio" name="resize_radio" id="resize_no" value="no">
+            <label for="resize_no">No</label>
+
+            <div id="resize_size">
+                <label for="resize_size">Resize size (in px):</label>
+                <input type="number" name="resize_size" id="resize_size_field" value="50">
+            </div>
+        </div>
+        <div id="submit">
+            <button id="submit_button" type="submit">Generate</button>
+        </div>
+    </form>
+    <br><br>
+    <footer>Made with ❤️ by CuzImBisonratte</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
