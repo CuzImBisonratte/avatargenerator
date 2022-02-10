@@ -68,3 +68,12 @@ form {
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 10px 40px 0 rgb(0, 238, 255);
 }
+
+#submit_button {
+    background-color: #1ad5e2;
+    border: 0.5vh white solid;
+    border-radius: 5vh;
+    font-size: 1.5vh;
+    padding: 1vh;
+    width: 100%;
+}
