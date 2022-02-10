@@ -61,9 +61,6 @@
 
         // Show the image
         echo "<img src='images/simplegen_resized.png'>";
-
-
-
     }
 
 ?>
