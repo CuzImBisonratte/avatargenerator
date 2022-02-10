@@ -10,6 +10,7 @@ html {
 
 body {
     text-align: center;
+    transition: 0.25s;
 }
 
 #options {
