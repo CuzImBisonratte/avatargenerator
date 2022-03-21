@@ -5,4 +5,4 @@ It is based on the [imagegenerate-script](https://github.com/CuzImBisonratte/ima
 
 # Requirements
 
-The only thing needed is an web server that supports PHP and the extension "gd" or "gd2"
+The only thing needed is an web server that supports PHP and the extension "gd" or the extension "gd2"
