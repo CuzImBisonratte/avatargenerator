@@ -3,6 +3,7 @@ function openSimple() {
 
     // Redirect to simple.html
     window.setTimeout(function() {
+        document.body.style.filter = "blur(0)";
         location.href = "simple.html";
 
     }, 200);
@@ -13,6 +14,7 @@ function openCustom() {
 
     // Redirect to custom.html
     window.setTimeout(function() {
+        document.body.style.filter = "blur(0)";
         location.href = "custom.html";
 
     }, 200);
